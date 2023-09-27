@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+#wrapper{
+  width: 1200px;
+  margin:10px auto; /* Centra el contenedor en la pagina*/
+  height: auto;
+  border: 1px dashed black;
+  padding: 5px;
+}
+
+header{
+  width: 1150px;
+  margin:0 auto;
+  height: 100px;
+  border: 1px dashed blueviolet;
+}
+
+#img-header{
+  width: 100px;
+  height: 80px;
+  margin: 3px;
+  padding: 5px;
+  border: 1px solid goldenrod;
+  float: left;
+}
+
+#title-header{
+    width: 1010px;
+    height: 80px;
+    margin: 3px;
+    padding: 5px;
+    border: 1px solid goldenrod;
+    float: right;
+}
+
+#title-header h1{
+  text-align: center;
+  line-height: 80px;
+  color:darkblue;    
+}
+
+main{
+    clear: both;
+    width: 1150px;
+    margin:5px auto;
+    height: 500px;
+    border: 1px dashed royalblue;
+}
+
+
+section{
+  width: 800px;
+  margin:5px;
+  padding: 5px;
+  height: 220px;
+  border: 1px solid gray;  
+}
+
+#img-section{
+  width: 100px;
+  height: 100px;
+  margin: 3px;
+  padding: 5px;
+  border: 1px solid goldenrod;  
+  float: left;
+}
+
+article {
+  width: 655px;
+  margin:5px;
+  padding: 5px;
+  height: 200px;
+  border: 1px solid darkred;  
+  float: right;
+}
+
+aside{
+    width: 280px;
+    margin:5px;
+    padding: 5px;
+    height: 480px;
+    border: 1px solid yellowgreen;
+    float: left;
+}
+
+aside h3{
+  text-align: center;
+  line-height: 480px;
+  
+}
+
+#main-content{
+  width: 825px;
+  margin:5px;
+  padding: 5px;
+  height: 480px;
+  border: 1px solid yellowgreen;
+  float: right;
+}
+
+footer{
+  clear: both;
+  width: 1150px;
+  margin:0 auto;
+  height: 50px;
+  border: 1px dashed blueviolet;
+}
+
+footer p{
+  font-size: 0.9em;
+  color: darkgreen; 
+  padding: 5px;
+}

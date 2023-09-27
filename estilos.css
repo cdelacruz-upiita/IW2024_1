@@ -1,0 +1,24 @@
+/* Definición de propiedades para la etiqueta IMG */
+img{
+  width: 100px;
+  height: 100px; 
+  border: 1px solid red;  
+}
+
+/* Definición de propiedades agrupadas en un selector CLASE que se puede reutilizar en la página de este ejercicio */
+.cajaTitulo {
+  height: 100px;
+  width: 700px;  
+  border: 1px solid blue;
+  display: inline;
+  margin-left: 50px;
+}
+
+/* Definición de propiedades para la etiqueta H1 */
+h1{
+   font-size: 3em;
+   color:darkblue; 
+   display: inline;
+
+}
+

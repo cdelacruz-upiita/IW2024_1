@@ -1,0 +1,50 @@
+.flex-box {
+    width: 1200px;        
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid blue;    
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-evenly; /* eje principal*/
+    align-items: stretch; /* eje cruzado */
+    
+
+    /*
+    Alinear elementos en el eje principal: justify-content.
+
+    valores:
+
+    1). flex-start: los elementos se alinean al inicio del margen inicial del contenedor.
+    2). flex-end: los elementos se alinean al final del contenedor.
+    3) center: los elementos se centran en el eje principal.
+    4) space-evenly, space-around, space-between
+  */
+
+  /*
+    Alinear elementos en el eje cruzado: align-item
+
+    valores:
+
+    1) stretch: los elementos se ajustan por defecto a la altura del elemento más alto.
+    2) flex-start: los elementos se alinean al inicio del contenedor.
+    3) flex-end: los elementos se alinean al final del contenedor.
+    4) center: se alinean al centro del contenedor.
+  */
+
+
+}
+
+.item-flex{
+  border: 1px solid red;  
+  width: 300px;
+  height: 100px;
+  
+  /*
+    Manejo del espacio disponible
+
+    flex-grow:
+    flex-shrink:
+    flex-basis:
+  */  
+}
+

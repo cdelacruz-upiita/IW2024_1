@@ -1,0 +1,134 @@
+/* Reseteo de margenes exteriores e interiores configurados por el navegador */
+*{
+    margin: 0;
+    padding: 0;  
+  }
+  
+  /*Contenedor envoltura del diseño de la página */
+  #wrapper{
+    width: 90%;    
+    margin:10px auto;
+    height: auto;
+    border: 1px dashed black;
+    padding: 0.5rem;    
+  }
+  
+  header{
+    width: 98%;
+    height: 100px;
+    margin:0 auto;
+    border: 1px dashed blueviolet;
+  }
+  
+  #img-header{
+    width: 10%;
+    height: 80px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid goldenrod;    
+    float:left;
+  }
+  
+  #title-header{
+      width: 86%;
+      height: 80px;
+      margin: 5px 5px 5px 12%;
+      padding: 5px;  
+      border: 1px solid blue;    
+  }
+
+  #title-header h1{
+    font-size: 3em;   
+    line-height: 80px;
+    text-align: center;
+  }
+  
+  main{
+    clear: both;
+    width: 98%;
+    margin:0.3rem auto;
+    height: 500px;
+    border: 1px dashed royalblue;
+  }
+  
+  aside{
+    width: 23%;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    height: 480px;
+    border: 1px solid yellowgreen;
+    float: left;
+  }
+
+  aside p{
+    font-size: 1.5em;    
+  }
+  
+  #main-content{
+    width: 72.8%;
+    margin:0.3rem 0.3rem 0.3rem 25%;
+    padding: 0.3rem;
+    height: 480px;
+    border: 1px dashed yellowgreen;        
+    position: relative;
+  }
+  
+  section{
+    width: 97%;
+    margin: 0.3rem;
+    padding: 0.4rem;
+    height: 220px;
+    border: 1px solid gray; 
+    position: relative;    
+  }
+  
+  #img-section{
+    width: 10%;
+    height: 100px;
+    margin: 0.3rem;
+    margin-right: 0.6rem;
+    padding: 0.3rem;
+    border: 1px solid goldenrod;  
+    float: left;
+  }
+  
+  section article p {
+    text-align: justify;      
+  }
+
+  footer{
+    clear: both;
+    width: 98%;
+    margin:0 auto;
+    height: 50px;
+    border: 1px dashed blueviolet;
+  }
+  
+  footer p{
+    font-size: 0.9em;
+    color: darkgreen; 
+    padding: 0.3rem;
+  }
+  
+  @media only screen and (min-width: 200px) and (max-width: 870px){
+   #wrapper{
+    min-width: 400px;
+   } 
+   #title-header h1{
+      font-size: 2em;   
+    }
+    
+    aside p{
+      text-align: justify;
+      line-height: 480px;    
+    }
+    section{
+        font-size: 0.85em;                
+    }
+
+    main, #main-content, section, footer{
+      height: auto;
+    }
+ }
+
+ 

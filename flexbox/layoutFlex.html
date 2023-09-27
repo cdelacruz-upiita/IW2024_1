@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de página mediante Flexbox</title>
+    <link rel="stylesheet" href="layoutFlex.css">
+</head>
+<body>
+   <div id="wrapper"> <!-- Contenedor Flex -->
+      <header class="header"> <!-- item -->
+        <img src="https://imgs.search.brave.com/k0AnY_UGTd2gs5fCF7TqjZM7nhu3xv-IueBjufcovd4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb25j/ZXB0by5kZS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOC8wNC9o/dG1sMy1lMTU0NzA4/OTAyMjIxMC5qcGc" alt="">
+        <h1 class="title">Diseño con Flexbox</h1>
+      </header> 
+      <div id="main-container"> <!-- item -->
+         <aside class="aside">
+            <nav>
+              <ul>
+                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Modelo Flex</a> 
+                </li>
+                <li><a href="https://www.youtube.com/watch?v=F-KCncXMPk0" target="_blank">Video tutorial</a></li>
+                <li><a href="https://css3menu.com/es/" target="_blank">Menu CSS</a></li>
+              </ul>  
+            
+            
+        </nav>
+         </aside>
+         <main class="main">
+            <section class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veniam quas aliquid aut obcaecati dolorum perferendis, placeat corrupti vel ab! Dolore ex minus doloremque esse iste rem reprehenderit amet dolorum!
+              Saepe tempora hic cum unde veritatis commodi ab suscipit expedita porro eos minus nostrum, nesciunt illo dolorem quod adipisci fugiat repellat nihil quisquam laborum. Repellat facere fuga tempore dignissimos soluta.
+              Debitis, magnam. Fugit veniam sunt quod, totam nihil cupiditate quasi consequuntur maiores id natus qui possimus, iusto porro omnis amet eum molestiae itaque modi quis. Veniam hic quasi sapiente est?</p>
+            </section>
+            <section class="content">
+              <p>
+                El modelo de <b>Caja Flexible</b>, comúnmente llamado <b>Flexbox</b>, fue diseñado como un modelo unidimensional de layout, y como un método que pueda ayudar a distribuir el espacio entre los elementos de una interfaz y mejorar las capacidades de alineación.</p>
+<p>
+      El termino unidimensional se refiere a que el Layout se organiza en una sola dimensión a la vez (eje).</p>
+
+      <h3>Ejes en Flexbox</h3>
+<ol>
+    <li>  Eje principal definido por la propiedad flex-direction.</li>
+<p>
+        Posibles valores de flex-direction: row, row-reverse, column, column-reverse. Row y row-reverse indican que el eje principal es horizontal. Column y column-reverse establecen que el eje principal es vertical.
+        </p>
+
+      <li>Eje cruzado perpendicular al eje principal.</li> <p>Este eje va en sentido opuesto al eje principal, es decir, si el eje principal es horizontal el eje cruzado será vertical.</p>
+</ol>
+
+      <h3>Lineas de inicio y fin </h3>
+<p>
+      Se asocia las lineas de inicio y fin de una caja flexible al modelo de escritura, es decir, izquierda - derecha, derecha-izquierda de acuerdo con el idioma seleccionado para el contenido.</p>
+
+      <h3>Contenedor Flexbox</h3>
+       
+      <p>
+      Los elementos de un contenedor Flex se comportan por defecto de la siguiente manera:</p>
+
+      <ol>
+      <li>Los elementos se despliegan sobre una fila (valor por defecto de flex-direction es row).</li>
+      <li>Los elementos empiezan desde el margen inicial del eje principal.</li>
+      <li>Los elementos no se ajustarán en la dimensión principal, pero se pueden contraer.</li>
+      <li>Los elementos se ajustarán para llenar el tamaño del eje cruzado.</li>
+      <li>La propiedad flex-basis es definida como auto.</li>
+      <li>La propiedad flex-wrap es definida como nowrap.</li>
+    </ol>
+         
+            </section>
+     
+         </main>
+      </div>
+   </div> 
+</body>
+</html>

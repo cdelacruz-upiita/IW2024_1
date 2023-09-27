@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Flexbox para diseño de Layout</title>
+    <link rel="stylesheet" href="estilosFlex.css">
+</head>
+<body>
+   <!--
+      El modelo de Caja Flexible, comúnmente llamado Flexbox, fue diseñado como un modelo unidimensional de layout, y como un método que pueda ayudar a distribuir el espacio entre los elementos de una interfaz y mejorar las capacidades de alineación.
+
+      El termino unidimensional se refiere organiza el Layout en una sola dimensión a la vez (eje).
+
+      Ejes en Flexbox
+
+      1. Eje principal definido por la propiedad flex-direction.
+
+        Posibles valores de flex-direction: row, row-reverse, column, column-reverse. Row y row-reverse indican que el eje principal es horizontal. Column y column-reverse establecen que el eje principal es vertical.
+
+      2. Eje cruzado perpendicular al eje principal. Este eje va en sentido opuesto al eje principal, es decir, si el eje principal es horizontal el eje cruzado será vertical.
+
+      Lineas de inicio y fin 
+
+      Se asocia las lineas de inicio y fin de una caja flexible al modelo de escritura, es decir, izquierda - derecha, derecha-izquierda de acuerdo con el idioma seleccionado para el contenido.
+
+      Contenedor Flexbox
+
+      Los elementos de un contenedor Flex se comportan por defecto de la siguiente manera:
+
+      a. Los elementos se despliegan sobre una fila (valor por defecto de flex-direction es row).
+      b. Los elementos empiezan desde el margen inicial del eje principal.
+      c. Los elementos no se ajustarán en la dimensión principal, pero se pueden contraer.
+      d. Los elementos se ajustarán para llenar el tamaño del eje cruzado.
+      e. La propiedad flex-basis es definida como auto.
+      f. La propiedad flex-wrap es definida como nowrap.
+     
+   --> 
+   <div class="flex-box">
+    <div class="item-flex">Item 1</div>
+    <div class="item-flex">Item 2</div>
+    <div class="item-flex">Item 3</div>
+  </div>
+
+</body>
+</html>

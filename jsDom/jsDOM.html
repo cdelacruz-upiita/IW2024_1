@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de formulario y actualización del DOM con javascript</title>
+    <link rel="stylesheet" href="jsDOM.css">    
+    
+    <!-- <script defer> le indica al navegador que espere a que se
+        carguen todos los elementos HTML para que se ejecute el 
+        código JS -->
+  
+     <script src="jsDOM.js">
+     </script>   
+</head>
+<body>
+   <main id="main">
+      <section id="section-content">
+
+      </section>
+      <section id="section-form">
+        <!-- formulario de inicio de sesión -->                  
+        <form action="#" name="formIS" id="formIS">                        
+            <a href="#" onclick="colorVerdeBtn()">Color verde en botón</a>
+            <a href="#" onclick="colorAzulBtn()">Color azul en botón</a>        
+            <div class="form-title">
+                <h2>Inicio de Sesión</h2>        
+            </div>
+            <label for="username">
+                <input type="text" placeholder="Usuario" name="username" pattern="[a-zA-Z]+" required>                
+            </label>
+            <label for="passwd">
+                <input type="password" placeholder="Contraseña" name="passwd" pattern="[A-Za-z0-9!?-]{4,8}">                
+            </label>
+            <button type="button" id="btn">Ingresar</button>            
+            <div class="link-container">
+                <a href="#" onclick="displayFormReg()">Registrarse</a>
+            </div>
+        </form>    
+        
+        
+        <form action="#" name="formReg" id="formReg">            
+            <div class="form-title">
+                <h2>Registro</h2>
+            </div>
+            <label for="username">
+                <input type="text" placeholder="Usuario" name="username" pattern="[a-zA-Z]+" required>
+                
+            </label>
+            <label for="passwd">
+                <input type="password" placeholder="Contraseña" name="passwd" pattern="[A-Za-z0-9!?-]{4,8}" required>                
+            </label>
+            <label for="question">
+                <input type="text" placeholder="Pregunta de recuperación" name="question" pattern="[A-Za-z]+" required>                
+            </label>
+            <label for="response">
+                <input type="text" placeholder="Respuest a pregunta" name="response" pattern="[A-Za-z]+" required>                
+            </label>
+            <button type="button" id="btn">Registrar</button>            
+            <div class="link-container">
+                <a href="#" onclick="displayFormIS()">Iniciar Sesión</a>
+            </div>
+        </form>     
+
+</section>
+   </main> 
+   <!-- Se incluye el script al final para que se carguen todos
+        los elementos de la página y no se presenten conflictos al
+        acceder a ellos desde código JS -->
+   <script src="jsDOM.js"></script>
+</body>
+</html>

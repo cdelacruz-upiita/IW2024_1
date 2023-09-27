@@ -1,0 +1,49 @@
+#caja1, #caja2, #caja3{
+   width: 200px;
+   height: 100px; 
+   border: 3px solid;
+   margin:10px;
+}
+
+#caja4{
+    width: 650px;
+    height: 100px; 
+    border: 3px solid;
+    margin:10px;
+ }
+ 
+
+#caja1{
+  color:blueviolet;  
+}
+
+#caja2{
+  color: blue;  
+}
+
+#caja3{
+    color:green;
+}
+
+.absoluto{
+   position: absolute;
+   top:110px;
+   right:100px;
+}
+
+
+.relativo{     
+  position:relative;    
+  top:100px;
+}
+
+
+.fijo{
+   position:fixed;
+   top:10px;
+   left: 400px;;
+}
+
+.flotante{
+   float: left;
+}
