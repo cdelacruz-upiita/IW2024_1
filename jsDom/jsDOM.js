@@ -33,6 +33,8 @@ function datosEnviados(){
   const formReg = document.querySelector("#section-form #formReg");
   formReg.style.display="none";
   formIS.style.display = "block";  
+
+  /*hiden() y show()*/
 }
 
 
