@@ -1,22 +1,22 @@
 [{
    "user":"Carlos",
    "email":"carlos@dominio.mx",
-   "pregunta":"Color favorito",
-   "respuesta":"d4177dc752cddc204b22ec5798c4400e",
+   "question":"Color favorito",
+   "answer":"d4177dc752cddc204b22ec5798c4400e",
    "passwd":"fa62a1a30581a4a52aedf5eea225b1f2"  
 },
 {
     "user":"Juan",
     "email":"juan@dominio.mx",
-    "pregunta":"Lugar favorito",
-    "respuesta":"a48f7dfe488185fe9b9c8c723d318c66",
+    "question":"Lugar favorito",
+    "answer":"a48f7dfe488185fe9b9c8c723d318c66",
     "passwd":"2ff3eb9deea5be1c49585e8fa3a1f6c1"  
  },
  {
     "user":"Soledad",
     "email":"soledad@dominio.mx",
-    "pregunta":"Color favorito",
-    "respuesta":"17163859b9c16bc4dec286e3adc20047",
+    "question":"Color favorito",
+    "answer":"17163859b9c16bc4dec286e3adc20047",
     "passwd":"5c2658999d46b2c4fe2af73eb62973af"  
  }
 ]

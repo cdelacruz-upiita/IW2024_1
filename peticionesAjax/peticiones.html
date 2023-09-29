@@ -15,13 +15,16 @@
              <th>correo electrónico</th>
           </thead>
       </table>
+      <br>
+      <button type="button" onclick="registerUser();">Registrar nuevo usuario</button>
+      
    </div> 
    <script src="lib/md5.min.js"> </script>
    <script src="peticiones.js"></script>
    <script>
       let str = md5('morado');
       console.log(str);
-      leerArchivo();
+      getAllUsers()
     </script>
 
 </body>
