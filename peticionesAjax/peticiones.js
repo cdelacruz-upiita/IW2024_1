@@ -9,6 +9,9 @@
 let listaUsuarios = [];
 let error = 0;
 
+
+
+
 function getAllUsers(a) {
     const url = 'datos.json';
     const http = new XMLHttpRequest();  // Objeto para configurar la petición
@@ -60,12 +63,11 @@ function registerUser(){
       passwd:"2ff3eb9deea5be1c49585e8fa3a1f6c1"        
    } 
 
-   let strUser = JSON.stringify(userF);
-   let res = setUser(strUser);     
+    let res = setUser(userF);     
    if (res === 0) {
      alert(`Usuario ${userF.user} registrado`);
 
-     /*getAllUsers(1);*/
+     getAllUsers(1);
    }  
    else
      alert(`Error al registrar el usuario`);
