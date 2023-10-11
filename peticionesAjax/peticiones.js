@@ -9,9 +9,6 @@
 let listaUsuarios = [];
 let error = 0;
 
-
-
-
 function getAllUsers(a) {
     const url = 'datos.json';
     const http = new XMLHttpRequest();  // Objeto para configurar la petición
@@ -26,8 +23,8 @@ function getAllUsers(a) {
             console.log(listaUsuarios);
 
             /* Se añade título de la tabla */            
-            
-      listaUsuarios.forEach(objeto => {           
+
+        listaUsuarios.forEach(objeto => {           
         row = document.createElement('tr');     
         col1 = document.createElement('td');
         col2 = document.createElement('td');
@@ -71,4 +68,25 @@ function registerUser(){
    }  
    else
      alert(`Error al registrar el usuario`);
+}
+
+function inicioSesion(){
+   // recupera valor de passwd en texto plano
+   let pw = document.formIS.passwd.value;
+   let u = document.formIS.user.value;
+
+   let userF = {
+      user:"Juan Pablo",
+      email:"juan.pablo@dominio.mx",
+      question:"Lugar favorito",
+      answer:"a48f7dfe488185fe9b9c8c723d318c66",
+      passwd:"2ff3eb9deea5be1c49585e8fa3a1f6c1"        
+   }
+
+   if (userF.user === u && userF.passwd === md5(pw)) 
+      alert ('usuario encontrado ...');
+   else
+     alert ('datos incorrectos ...');
+     
+    
 }

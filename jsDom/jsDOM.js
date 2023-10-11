@@ -37,5 +37,25 @@ function datosEnviados(){
   /*hiden() y show()*/
 }
 
+function inicioSesion(){
+ let pw = document.formIS.passwd.value;
+ let u = document.formIS.username.value;
+
+ let userF = {
+  user:"Juan Pablo",
+  email:"juan.pablo@dominio.mx",
+  question:"Lugar favorito",
+  answer:"a48f7dfe488185fe9b9c8c723d318c66",
+  passwd:"Oaxaca"        
+}
+
+
+
+ if (u === userF.user && pw === userF.passwd)
+   alert ('usuario encontrado ...');
+  else 
+   alert ('error en los datos')
+
+}
 
  
