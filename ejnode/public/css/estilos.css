@@ -1,0 +1,62 @@
+#wrapper{
+    width: 95%; 
+    height: auto;
+    margin:20px auto;
+    display: flex;    
+  }
+    
+  #section-form{
+      /*border: 1px solid blue;*/    
+      flex:1;
+      padding: 50px;    
+      align-self: center;
+  }
+  
+  #section-form h2{
+     text-align: center;
+  }
+  
+  #section-form form{
+      /*border: 1px solid green;*/
+      display: flex;
+      flex-flow: row wrap;        
+  }
+  
+  form #btn{
+    width: 300px;  
+    height: 30px;
+    margin:10px;  
+    background-color: #33A8FF;  
+    color: white;
+    cursor: pointer; 
+    
+  }
+  
+  form input {
+    width: 300px;  
+    height: 30px;
+    margin:10px;
+  }
+  
+   form input:invalid {
+    border: 2px solid red;
+    }
+    form input:valid {
+      border: 2px solid green;
+    }
+  form a{
+    margin-right: 15px;  
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  form a:hover{
+    color:green;
+  }
+  
+  form .form-title{
+    width: 300px;
+    text-align: center;
+  }
+  
+  
